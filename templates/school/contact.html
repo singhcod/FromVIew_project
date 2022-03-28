@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<h1>This is form from form api</h1>
+<form method="POST" action="" novalidate>
+    {% csrf_token %}
+    {{ form.as_p }}
+</form>
+</body>
+</html>
